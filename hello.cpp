@@ -71,7 +71,7 @@ if (efficiency <= 0 || efficiency >  100) {// межа допустимого К
 std::cout <<"ККД інвестора мусить бути від 0% - 100% "<<std::endl;
  return 1; 
 }
-//ведення потужності приладу
+//ведення потужності приладу=
  int power; 
 std:: cout <<"Потужність, Вт: " ;
 std::cin >> power; // введення потужності оримання даних від користовача
@@ -149,7 +149,7 @@ std::cout << std::left << std::setw(41)
           << energy << " Вт·год" << std::endl;
 
 std::cout << std::left << std::setw(43)
-          << "Корисна енергія:"
+          << "Корисна енергія:" 
           << std::fixed << std::setprecision(1)
           << E_useful << " Вт·год" << std::endl;
 
@@ -164,6 +164,6 @@ std::cout << std::left << std::setw(38)
           <<" "
           << minutes << " хв "
           << std::endl;
-}
+}///
 
 
