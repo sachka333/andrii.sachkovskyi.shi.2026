@@ -15,7 +15,7 @@ int main(){
     std::string model; 
      setlocale(LC_ALL, "");
 std::cout << "Введіть модель станції: " ; 
-    std::cin >> model;
+    std::getline(std::cin, model);
     if (model.length()   > 31){ // 31 - максимальна довжина моделі станції
         std::cout << "Помилка: довжина моделі станції не повинна перевищувати 31 символ." << std::endl;
         return 1;
@@ -164,6 +164,5 @@ std::cout << std::left << std::setw(38)
           <<" "
           << minutes << " хв "
           << std::endl;
-}///
-
+}
 
